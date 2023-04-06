@@ -14,7 +14,7 @@ public class ConnectionManager {
     }
 
 
-    public Connection openConnection() throws SQLException {
+    public static Connection openConnection() throws SQLException {
         Connection conn = null;
         try {
             Class.forName("java.sql.Driver");

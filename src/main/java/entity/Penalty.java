@@ -1,20 +1,20 @@
-package Entity;
+package entity;
 
 import java.util.Objects;
 
 public class Penalty {
-    private int id;
+    private Long id;
     private String type;
     private int amount;
 
     public Penalty() {
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

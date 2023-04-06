@@ -1,41 +1,41 @@
-package Entity;
+package entity;
 
 import java.util.Objects;
 
 public class UserPenalty {
-    private int id;
-    private int idPenaltyFK;
-    private int idUserFK;
+    private Long id;
+    private Long idPenaltyFK;
+    private Long idUserFK;
     private boolean is_paid;
 
     public UserPenalty() {
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public int getIdPenaltyFK() {
+    public Long getIdPenaltyFK() {
         return idPenaltyFK;
     }
 
-    public void setIdPenaltyFK(int idPenaltyFK) {
+    public void setIdPenaltyFK(Long idPenaltyFK) {
         this.idPenaltyFK = idPenaltyFK;
     }
 
-    public int getIdUserFK() {
+    public Long getIdUserFK() {
         return idUserFK;
     }
 
-    public void setIdUserFK(int idUserFK) {
+    public void setIdUserFK(Long idUserFK) {
         this.idUserFK = idUserFK;
     }
 
-    public boolean isIs_paid() {
+    public boolean getIs_paid() {
         return is_paid;
     }
 

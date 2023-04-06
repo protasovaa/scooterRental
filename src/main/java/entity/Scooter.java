@@ -1,9 +1,9 @@
-package Entity;
+package entity;
 
 import java.util.Objects;
 
 public class Scooter {
-    private int id;
+    private Long id;
     private String location;
     private boolean isBlocked;
     private double priceForMin;
@@ -11,11 +11,11 @@ public class Scooter {
     public Scooter() {
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -27,7 +27,7 @@ public class Scooter {
         this.location = location;
     }
 
-    public boolean isIs_blocked() {
+    public boolean getIs_blocked() {
         return isBlocked;
     }
 
